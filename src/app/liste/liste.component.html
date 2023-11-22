@@ -1,0 +1,12 @@
+
+<div id="home">
+    <app-article 
+    *ngFor ="let element of Liste"
+    [titrecard]="element.card" 
+    [Prix]="element.Prix"
+    [Description]="element.Description"
+    [nom]="element.nom"
+    [Image]="element.Image"
+    [time]="element.time">
+  </app-article>
+  </div>

@@ -1,0 +1,29 @@
+
+   
+  
+    <div class="container">
+        <div class="card">
+          <div class="card__header">
+            <img [src]="Image" [alt]="textaltimg" class="card__image" width="600" alt>
+          </div>
+          <div class="card__body">
+            <span class="tag tag-blue">{{titrecard}}</span>
+            <a routerLink="/ajouter">Ajouter</a>
+            <h4>{{titrecard}}</h4>
+            <h6>Prix:{{Prix}} </h6>
+            <p>{{Description}}</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="https://i.pravatar.cc/40?img=1" alt="user__image" class="user__image">
+              <div class="user__info">
+                <h5> {{nom}} </h5>
+                <small> {{time}} </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  
+  
